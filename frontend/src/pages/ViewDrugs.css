@@ -1,0 +1,52 @@
+.view-drugs-container {
+    padding: 40px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfdfd;
+  }
+  
+  .view-drugs-container h2 {
+    text-align: center;
+    color: #2a3f54;
+    margin-bottom: 20px;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  table th,
+  table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #4c8bf5;
+    color: white;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #333;
+  }

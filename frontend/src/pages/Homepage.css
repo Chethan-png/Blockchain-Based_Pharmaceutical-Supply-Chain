@@ -1,0 +1,60 @@
+.homepage-wrapper {
+  background: #f4f6fa;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px 30px;
+  color: #222;
+}
+
+.homepage-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4b0082;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.action-panel {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 1100px;
+  margin: auto;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.button-grid button {
+  padding: 14px;
+  font-size: 1rem;
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-grid button:hover {
+  background-color: #580ea3;
+}

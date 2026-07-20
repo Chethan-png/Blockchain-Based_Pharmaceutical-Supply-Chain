@@ -1,0 +1,75 @@
+.view-notes-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .view-notes-container h2 {
+    text-align: center;
+    color: #4b0082;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .input-group button {
+    padding: 10px 15px;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-group button:hover {
+    background-color: #580ea3;
+  }
+  
+  .notes-list h3 {
+    color: #4b0082;
+    margin-bottom: 10px;
+  }
+  
+  .notes-list ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .notes-list li {
+    background: #f2f2f2;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #333;
+  }
+  

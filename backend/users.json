@@ -1,0 +1,28 @@
+[
+    {
+      "username": "manu1",
+      "password": "pass123",
+      "role": "manufacturer"
+    },
+    {
+      "username": "wholesaler1",
+      "password": "wholesaler123",
+      "role": "wholesaler"
+    },
+    {
+      "username": "distributor1",
+      "password": "distrib123",
+      "role": "distributor"
+    },
+    {
+      "username": "pharma2",
+      "password": "pharma123",
+      "role": "pharmacy"
+    },
+    {
+      "username": "cust01",
+      "password": "custpass",
+      "role": "customer"
+    }
+  ]
+  
