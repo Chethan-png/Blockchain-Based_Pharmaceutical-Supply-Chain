@@ -1,0 +1,37 @@
+# Node.js
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+.vite/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# Hyperledger Fabric wallet
+backend/wallet/
+
+# Go vendor dependencies
+chaincode/drugcontract/vendor/
+
+# VS Code
+.vscode/
+
+# Microsoft Office temporary files
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.pptx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Go vendor dependencies
+chaincode/drugcontract/vendor/
